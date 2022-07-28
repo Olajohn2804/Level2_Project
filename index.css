@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    background-color: black;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid red;
+}
+.logo{
+    color: white;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+.center{
+    float: center;
+    margin-left: 250px;
+}
+.center input{
+    padding: 9px;
+    width: 340px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.center button{
+    padding: 9px;
+    width: 100px;
+    position: relative;
+    right: 1%;
+    background-color: red;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+.end{
+    position: relative;
+    left: 8%;
+    top: 2%;
+}
+.end .fa-regular{
+    display: block;
+    margin-left: 30px;
+    margin-bottom: -2px;
+}
+.end .fa-solid{
+    display: block;
+    margin-left: 20px;
+    margin-bottom: -2px;
+}
+.cart:hover{
+    color: red;
+    transition: 0.5s;
+}
+.cart:hover .fa-solid{
+    color: red;
+}
+.wishlist:hover{
+    color: red;
+    transition: 0.5s;
+}
+.wishlist:hover .fa-regular{
+    color: red;
+}
+.sign .fa-solid{
+    margin-left: 10px;
+    display: block;
+}
+.sign{
+    position: relative;
+    left: 12%;
+    top: 0%;
+    border-radius: 20px;
+}
+.sign:hover{
+    color: red;
+    transition: 0.5s;
+}
+.sign:hover .fa-solid{
+    color: red;
+}
+/* navbar styling ends */
+/* mini-bar styling starts */
+.container2{
+    text-align: center;
+    margin-top: 70px;
+}
+.miniBar{
+    align-items: center;
+    border-bottom: 3px solid rgba(116, 114, 114,0.2);
+}
+.nav .nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav .nav-item:hover a{
+    color: blue;
+    padding: 10px;
+    border-bottom: 1px solid blue;
+    transition: 0.5s;
+}
+/* mini-bar styling ends */
+/* main dashboard starts */
+.container .row .disp{
+    margin: 15px 15px 15px 15px;
+    border: 2px solid red;
+    height: 250px;
+    width: 250px;
+}
+.container .row .disp1{
+    background-image: url(../codingClass/project_tesla/image/model-y2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.list{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: large;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+.see:hover  a{
+    color: blue;
+    padding: 5px;
+    border-bottom: 1px solid blue;
+    transition: 0.5s;
+}
