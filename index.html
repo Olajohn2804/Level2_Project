@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/b90bd97998.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="https://www.kindpng.com/picc/m/193-1936884_ecommerce-websites-ecommerce-icon-hd-png-download.png" type="image/png">
 </head>
 <body>
     <!-- navbar starts -->
@@ -70,11 +71,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-1"></div>
-                <div class="col-3 disp disp1"></div>
-                <div class="col-3 disp disp2"></div>
-                <div class="col-3 disp disp3"></div>
+                <div class="col-3 disp disp1"><img src="https://m.media-amazon.com/images/I/41zbn0vKAOL._AC_UF226,226_FMjpg_.jpg" alt=""></div>
+                <div class="col-3 disp disp2"><img src="https://m.media-amazon.com/images/I/41UxszLmMZL._AC_UF226,226_FMjpg_.jpg" alt=""></div>
+                <div class="col-3 disp disp3"><img src="https://m.media-amazon.com/images/I/31il2k1oXvL._AC_UF226,226_FMjpg_.jpg" alt=""></div>
             </div>
         </div>
+
+        <!-- carosel starts -->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/customcmsmenu/item/e9.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/customcmsmenu/item/d9.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/customcmsmenu/item/Intel_game.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!-- carosel ends -->
+
         <div class="container">
             <div class="row list">
                 <div class="col-2">New Products</div>
@@ -82,10 +108,138 @@
                 <div class="col-1 see"><a href="">Hot deals</a></div>
                 <div class="col-1 see"><a href="">Categories</a></div>
                 <div class="col-2 see"><a href="">Electrical Appliances</a></div>
-                <div class="col-2 see"><a href="">More</a></div>
+                <div class="col-2"><div class="dropdown">
+                    <a class="btn btn-transparent outline-none dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      Menu
+                    </a>
+                  
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row cardRow">
+                <div class="col-1"></div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="EA1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Power Air <br> Fryer</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/O/P/118566_1643623183.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Nexus 43 Fhd Tv-Nx-Tv43 F110a</h5>
+                          <p class="card-text"> </p>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/Q/D/118566_1633357374.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Djack 3.1ch Home Theater System</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="container">
+            <div class="row cardRow">
+                <div class="col-1"></div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="EA1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Power Air <br> Fryer</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/O/P/118566_1643623183.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Nexus 43 Fhd Tv-Nx-Tv43 F110a</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/Q/D/118566_1633357374.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Djack 3.1ch Home Theater System</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row cardRow">
+                <div class="col-1"></div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="EA1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Power Air <br> Fryer</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/O/P/118566_1643623183.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Nexus 43 Fhd Tv-Nx-Tv43 F110a</h5>
+                          <p class="card-text me-5">#120,750 <del class="ms-5">#122,000</del></p>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/Q/D/118566_1633357374.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Djack 3.1ch Home Theater System</h5>
+                          <p class="card-text"></p>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                </div>
             </div>
         </div>
     </main>
     <!-- main dashboard ends -->
+    
+    
+    <!-- footer starts -->
+      <div class="bg-dark footer">
+        <div class="row  text-white">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic aliquam cum reprehenderit magnam? Natus quaerat debitis molestiae consectetur, ipsa doloremque eum fugiat temporibus iure? Voluptatum ea ipsum ab omnis saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, aspernatur. Suscipit eius a nostrum odit tenetur libero? Corporis explicabo quidem ipsum perspiciatis fuga nihil iste ducimus omnis consequatur voluptatum. Voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore exercitationem odio necessitatibus libero! Quibusdam ipsam vitae laudantium ullam eius deleniti nisi hic alias nostrum, mollitia, quasi, iste soluta reprehenderit delectus.
+        </div>
+      </div>
+    <!-- footer ends -->
 </body>
 </html>
