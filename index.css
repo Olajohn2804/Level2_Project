@@ -8,6 +8,7 @@
     position: fixed;
     top: 0;
     border-bottom: 3px solid red;
+    z-index: 5;
 }
 .logo{
     color: white;
@@ -111,12 +112,12 @@
 /* main dashboard starts */
 .container .row .disp{
     margin: 15px 15px 15px 15px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 250px;
     width: 250px;
 }
 .container .row .disp1{
-    background-image: url(../codingClass/project_tesla/image/model-y2.png);
+    /* background-image: url(../codingClass/project_tesla/image/model-y2.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,4 +138,9 @@
     padding: 5px;
     border-bottom: 1px solid blue;
     transition: 0.5s;
+}
+.container .cardRow .col-3{
+    margin-right: 30px;
+    margin-top: 30px;
+    z-index: 2;
 }
