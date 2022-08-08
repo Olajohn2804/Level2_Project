@@ -4,48 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SIGN UP | TROTECH </title>
     <link rel="stylesheet" href="signUp.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b90bd97998.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://www.kindpng.com/picc/m/193-1936884_ecommerce-websites-ecommerce-icon-hd-png-download.png" type="image/png">
 </head>
-    <body>
-        <header>
-            <img src="" alt="">
-        </header>
+    <body onload="add()">
+
         <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4" style="z-index: 3;">
+                        <div id="disp"></div>
+                    </div>
+                </div>
+            </div>
             <div class="container">
                 <div class="sign_upbox">
                     <div class="title">
+                        <h2><a href="" style="font-family: cursive; text-decoration: none;">TRO<span style="color: blue;">TECH.</span></a></h2>
                             SIGN UP TO CREATE AN ACCOUNT
                     </div>
                 
                     <div class="row">
                         <div class="col">
                         <div class="textbox-top">
-                            <input type="text" id="firstNam" placeholder="Firstname">
+                            <input type="text" id="Firstname" placeholder="Firstname">
                         </div>
                         </div>
                         <div class="col" align="right">
                             <div class="textbox-top">
-                            <input type="text" id="lastNam" placeholder="Lastname">
+                            <input type="text" id="Lastname" placeholder="Lastname">
                             </div>
                         </div>
                     </div>
                     <div class="textbox">
-                         <input type="text" id="eMail" placeholder="Email">   
+                         <input type="text" id="Email" placeholder="Email">   
                     </div>
                    <div class="textbox">
-                    <input type="password" id="passWord" placeholder="Password">   
-                   </div>
-                   <div class="textbox">
-                    <input type="password" id="password" placeholder="Confirm password">   
+                    <input type="password" id="Password" placeholder="Password">   
                    </div>
                    <div class="button" align="center">
                     <input type="button" value="SIGN UP" onclick="reg()">
                     </div>
-                    <div class="spann"><span>Already signed up? <a href="sign_in.html">click here</a> to be directed to log in page</span>
+                    <div class="spann"><span>Already signed up? <a href="signIn.html">click here</a> to be directed to log in page</span>
                     </div>
                 </div>    
             </div>
         </main> 
+        <script src="script.js"></script>
     </body>
 </html>

@@ -10,7 +10,6 @@ body{
     width: 100%;
     min-height: 100vh;
     min-width: 100%;
-    /* background-image: url(https://media.istockphoto.com/photos/online-shopping-concept-laptop-and-shopping-cart-on-blue-background-picture-id1301022916?b=1&k=20&m=1301022916&s=170667a&w=0&h=SZwrubcWrhzWgomr41shkT15TzZyjta9ubUoFPbmEiM=); */
     background-color: white;
     background-repeat: none;
     background-size: cover;
@@ -89,12 +88,10 @@ body{
     cursor: pointer;
     margin: 40px 0;
     color: white;
-    background-image: linear-gradient(150deg,pink, orange);
-    transition: 0.2s;
+    background-image: linear-gradient(150deg, blue, purple);
 }
 .button input:hover{
-    /* transition: 0.8s; */
-    background-image: linear-gradient(-150deg, pink, orange);
+    background-image: linear-gradient(-150deg, blue, purple);
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1);
 }
 .span{
