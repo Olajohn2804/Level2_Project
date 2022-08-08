@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-.container-fluid{
+header nav .container-fluid{
     background-color: black;
     padding: 10px;
     position: fixed;
