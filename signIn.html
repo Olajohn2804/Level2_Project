@@ -16,6 +16,14 @@
             <img src="" alt="">
         </header>
         <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4" style="z-index: 3;">
+                        <div id="disp"></div>
+                    </div>
+                </div>
+            </div>
             <div class="container">
                 <div class="sign_inbox">
                     <div class="title">
@@ -26,18 +34,19 @@
                     <div class="row">
                     </div>
                     <div class="textbox">
-                         <input type="text" id="eMail" placeholder="Email">   
+                         <input type="text" id="email" placeholder="Email">   
                     </div>
                    <div class="textbox">
-                    <input type="password" id="passWord" placeholder="Password">   
+                    <input type="password" id="password" placeholder="Password">   
                    </div>
                    <div class="button" align="center">
-                    <input type="button" value="SIGN UP" onclick="reg()">
+                    <input type="button" value="SIGN IN" onclick="signIn()">
                     </div>
                     <div class="spann"><span>Don't have an Account? It's quite simple  and  fast <a href="signUp.html">click here</a> to be directed to Sign Up page</span>
                     </div>
                 </div>    
             </div>
-        </main> 
+        </main>
+        <script src="script.js"></script> 
     </body>
 </html>
